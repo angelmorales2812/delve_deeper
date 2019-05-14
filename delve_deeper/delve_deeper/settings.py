@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['192.168.18.68']
 # Application definition
 
 INSTALLED_APPS = [
+    'catch_phishing.apps.Catch_phishingConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

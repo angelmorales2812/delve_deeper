@@ -2,7 +2,7 @@ from django.db import models
 
 class catch_phishing(models.Model):
 	assumed_phishing = models.URLField()
-	validate = models.BooleanField(initial=False)
+	validate = models.BooleanField(null=True)
 	validate_user = models.CharField(max_length=100)
 
 class phishing_report():
